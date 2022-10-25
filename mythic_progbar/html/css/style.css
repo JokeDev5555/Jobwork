@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha');
+
+html {
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+body {
+    background: transparent !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+#mina {
+    display: none;
+    overflow: hidden;
+}
+.progbar-in {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(255, 0, 0, 0.63); */
+    background-image: linear-gradient( #fdfdfdbd, #fdfdfdbd);
+    border-radius: 1.0vh;
+    z-index: 2; 
+}
+.progbar {
+    margin-top: 30.5%; 
+    left: 55.7%; 
+    border-radius: 1.0vh;
+    border: 1px solid rgba(71, 62, 62, 0.836);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.651); 
+    background-color: rgba(0, 0, 0, 0.8);
+    width: .49%; 
+    height: 19%; 
+    z-index: 1; 
+    position: relative; 
+}
+.flag-progbar {
+    position: absolute;
+    right: 0;
+    margin-right: -15px;
+    margin-top: -35px;
+}
+.img-progbar {
+    position:absolute;
+    margin-left: -30px;
+    width: 80px;
+    height: 0;
+}
+.img-progressbar {
+    position:absolute; 
+}
+.text-progbar {
+    color: white; 
+    text-shadow: 3px 1px 8px rgba(0,0,0,0.6);
+    font-weight: bold; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sriracha', cursive; 
+    margin-top: 13px;
+}
+
+.img-server {
+    position:absolute;
+	z-index: 2;    							
+	left:95%;										
+	top:10%;										
+	margin:-150px 0 0 -115px;    					
+	padding: none; 		
+}
+
+.pbar_text {
+    position:absolute;
+    margin-top: 35%; 
+    left: 56.5%;
+    color: white;
+    font-size: 1.5vh;
+    font-family: 'Sriracha', cursive; 
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
